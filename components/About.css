@@ -1,0 +1,126 @@
+.body-container {
+    background-color: #000000; /* Dark background */
+    color: #f1f3f6; /* Blue text */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* makes the image round */
+    object-fit: cover;
+  }
+
+  .body-container {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #00BFFF; /* Lighter blue for headings */
+  }
+  
+  .skill {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .skill img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+
+
+  .curriculum {
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-family: monospace;
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+}
+
+/* Heading Styling */
+.curriculum h2 {
+    color: #ffcc00;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 10px;
+}
+
+/* Year Sections */
+.curriculum h1 {
+    font-size: 1.8rem;
+    color: #00BFFF;
+    background: #2e2e2e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Course List */
+.curriculum ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+/* Course Name */
+.curriculum li {
+    background: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.1rem;
+}
+
+/* Hover Effect for Course Cards */
+.curriculum li:hover {
+    background: #444;
+    transform: scale(1.02);
+}
+
+/* Course Description */
+.curriculum li ul {
+    background: #222;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+    font-size: 0.95rem;
+    color: #ddd;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 600px) {
+    .curriculum {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .curriculum h2 {
+        font-size: 1.8rem;
+    }
+
+    .curriculum h1 {
+        font-size: 1.5rem;
+        padding: 12px;
+    }
+
+    .curriculum li {
+        font-size: 0.5rem;
+    }
+}
