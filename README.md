@@ -19,7 +19,8 @@ A modern, responsive personal portfolio website built with **React.js**. Showcas
 - CSS3
 - JSX
 - VS Code
-
+## Live at
+[view live portfolio](https://mvelo-081.github.io/my-portfolio/)
 ## 📸 Screenshots
 
 ![Screenshot](./public/assets/screenshot.png)
