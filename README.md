@@ -29,7 +29,7 @@ A modern, responsive personal portfolio website built with **React.js**. Showcas
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
+git clone https://github.com/mvelo-081/my-portfolio.git
 cd my-portfolio
 ```
 ### 2. Install dependencies
